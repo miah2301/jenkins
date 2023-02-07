@@ -18,8 +18,6 @@ public class RunnerConfig {
         Configuration.reportsFolder = "target/screenshots";
         Configuration.browserSize = "1920x1080";
         Configuration.browser = browser;
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\mihai\\.cache\\selenium\\chromedriver\\win32\\109.0.5414.74\\chromedriver.exe");
-        System.setProperty("selenide.browser", "Chrome");
         if (browserVersion != null) {
             Configuration.browserVersion = browserVersion;
         }
