@@ -18,6 +18,7 @@ public class RunnerConfig {
         Configuration.reportsFolder = "target/screenshots";
         Configuration.browserSize = "1920x1080";
         Configuration.browser = browser;
+        Configuration.headless = true;
         if (browserVersion != null) {
             Configuration.browserVersion = browserVersion;
         }
